@@ -1,7 +1,7 @@
 ## Hi there 👋 ... Welcome to my Github Page 💙
 # Am a Web Developer interested in Javascript Technologies ✔
 ### React✔... Express✔...MongoDB ✔
-# You can reach me via FB -Check my profile for link 😊👆
+### You can reach me via FB -Check my profile for link 😊👆
 ## Currently building real-world web-apps & Learning new technologies ✌
 # Thanks for coming to my TED Talk 😂😅
 
