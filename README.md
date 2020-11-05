@@ -1,8 +1,9 @@
-### Hi there 👋 ... Welcome to my Github Page 💙
+## Hi there 👋 ... Welcome to my Github Page 💙
 ### Am a Web Developer interested in Javascript Technologies ✔
-React✅... Express✅...MongoDB ✅
-You can reach me via FB -Check my profile for link 😊
-### ⚡ Fun Fact: Am looking forward to using Python(Django) for Web !! ✌
+# React✔... Express✔...MongoDB ✔
+# You can reach me via FB -Check my profile for link 😊👆
+## Currently building real-world web-apps & Learning new technologies ✌
+# Thanks for coming to my TED Talk 😂😅
 
 <!--
 **ProCode47/ProCode47** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
