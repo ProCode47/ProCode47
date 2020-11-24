@@ -1,7 +1,6 @@
 ## Hi there 👋 ... Welcome to my Github Page 💙
 # Am a Javascript Developer ✔
-### React✔... Express✔...MongoDB ✔
-## CurrentlyLearning new technologies 😊
+## React✔ Express✔ MongoDB ✔
 # #VC10 ✌
 
 <!--
