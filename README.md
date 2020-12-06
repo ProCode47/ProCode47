@@ -1,6 +1,6 @@
 ## Hi there 👋 ... Welcome to my Github Page 💙
 # Am a Javascript Developer ✔
-## React✔ Express✔ MongoDB ✔
+## i mainly work with the MERN Stack ✌❤
 
 <!--
 **ProCode47/ProCode47** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
