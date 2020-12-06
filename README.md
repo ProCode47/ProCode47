@@ -1,6 +1,6 @@
 ## Hi there 👋 ... 
-# Am a Javascript Developer ✔
-## Am on the MERN Stack ✌❤
+# Amma Web Developer ✔
+## Currently on the MERN Stack ✌❤
 
 <!--
 **ProCode47/ProCode47** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
