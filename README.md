@@ -3,7 +3,7 @@
 ## Currently on the MERN Stack ✌❤
 
 - 🔭 I’m currently working on: React and Vue Projects 
-- 🌱 I’m currently learning: Flask and GraphQL
+- 🌱 I’m currently learning: Typescript and GraphQL
 - 👯 I’m looking to collaborate on: Real-time Applications
 - 💬 Ask me about: Javascript Technologies 
 
