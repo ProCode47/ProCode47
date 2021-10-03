@@ -1,5 +1,5 @@
 ## Hi there 👋 ... 
-# Amma Web Developer ✔
+# I'm Victor and am a Web Developer ✔ ... Nice to meet you 😊
 ## Currently on the MERN Stack ✌❤
 
 - 🔭 I’m currently working on: React and Vue Projects 
