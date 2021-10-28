@@ -1,11 +1,11 @@
 ## Hi there 👋 ... 
-# I'm Victor and I am a Web Developer ✔ ... Nice to meet you 😊
+# I'm Victor and I am a Software Developer ✔ ... Nice to meet you 😊
 ## Currently on the MERN Stack ✌❤
 
-- 🔭 I’m currently working on: React and Vue Projects 
+- 🔭 I’m currently working on: React and React Native Projects 
 - 🌱 I’m currently learning: Typescript and GraphQL
-- 👯 I’m looking to collaborate on: Real-time Applications
-- 💬 Ask me about: Javascript Technologies 
+- 👯 I’m looking to collaborate on: Real-Time Applications
+- 💬 Ask me about: Javascript and Blockchain Technologies 
 
 ## Technologies and Tools 🚀
 ![](https://img.shields.io/badge/Language-HTML-informational?style=flat&logo=html5&logoColor=white&color=2bbc8a)
