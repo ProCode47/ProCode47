@@ -1,5 +1,6 @@
-## Hi there 👋 ... 
-# I'm Victor and I am a Software Developer ✔ ... Nice to meet you 😊
+
+# <b align="center"> Hi there 👋 ... I'm Victor </b>
+### <b align="center"> Budding Software Developer ✔🚀 </b>
 ## Currently on the MERN Stack ✌❤
 
 - 🔭 I’m currently working on: React and React Native Projects 
