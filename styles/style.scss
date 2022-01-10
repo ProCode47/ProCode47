@@ -5,6 +5,9 @@ $accentBlack: #2d2e32;
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 
+html {
+  background-color: white;
+}
 body {
   background-color: $accentBlack;
   color: white;
@@ -57,7 +60,7 @@ header {
     .fa-whatsapp {
       color: $green;
     }
-    .fa-envelope-o {
+    .fa-envelope {
       color: $green;
     }
     .fa-bars{
@@ -166,7 +169,7 @@ header {
 
 .about {
   display: flex;
-  padding-top: 10em;
+  padding-top: 5em;
   font-family: monospace;
   background-color: $mainBlack;
   height: fit-content;
@@ -214,8 +217,9 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: 20px;
       }
-      .fa {
+      .fa,.fas {
         font-size: 1.5rem;
         color: $green;
       }
@@ -253,7 +257,7 @@ header {
       font-size: 2.2rem;
       font-family: "Montserrat", sans-serif;
     }
-    i {
+    .quote {
       font-size: 1.2rem;
       color: rgb(255, 255, 255);
       font-family: "Montserrat", sans-serif;
@@ -867,7 +871,7 @@ header {
     padding: 0px !important;
   }
   .p-sm{
-    padding: 25px !important;
+    padding: 15px !important;
   }
   .m-md {
     margin-bottom: 4rem !important;
