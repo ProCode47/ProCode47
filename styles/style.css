@@ -1,13 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
-html {
-  background-color: white;
+html, body {
+  overflow-x: hidden;
 }
 
 body {
+  position: relative;
   background-color: #2d2e32;
   color: white;
   margin: 0px;
+  padding: 0px;
   font-family: monospace;
 }
 
@@ -1104,6 +1106,9 @@ header .social .fa-bars {
   .txt-xs {
     font-size: 0.8rem !important;
   }
+  .text-xs {
+    font-size: 1rem !important;
+  }
   .text-sm {
     font-size: 1.2rem !important;
   }
@@ -1151,6 +1156,9 @@ header .social .fa-bars {
   .m-0 {
     margin: 0px !important;
     padding: 0px !important;
+  }
+  .m-1 {
+    margin-left: 10% !important;
   }
   .p-sm {
     padding: 15px !important;
