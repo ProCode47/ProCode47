@@ -1064,18 +1064,30 @@ header .social .fa-bars {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding: 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10px;
     height: 20%;
   }
   .works .card-head h2 {
+    width: 60%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     font-size: 1.2rem;
-    padding-left: 20px;
-    padding-top: 12px;
   }
   .works .card-head span {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    width: 40%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
   .works .card-head h3 {
     background-color: #2d2e32;
@@ -1083,6 +1095,7 @@ header .social .fa-bars {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
+    font-weight: lighter;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
@@ -1107,7 +1120,7 @@ header .social .fa-bars {
     font-size: 0.8rem !important;
   }
   .text-xs {
-    font-size: 1rem !important;
+    font-size: 1.1rem !important;
   }
   .text-sm {
     font-size: 1.2rem !important;
@@ -1303,20 +1316,37 @@ header .social .fa-bars {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    padding: 20px;
-    height: 20%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 25%;
   }
   .work-adjust .card-head h2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     font-size: 1.2rem;
-    margin: 15px;
+    margin: 0px;
+    padding-top: 10px;
   }
   .work-adjust .card-head span {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    width: 40%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
   .work-adjust .card-head h3 {
     background-color: #2d2e32;
@@ -1324,20 +1354,20 @@ header .social .fa-bars {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
+    font-weight: lighter;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
     padding: 10px;
   }
   .work-adjust .card-head h3:last-child {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 10px;
   }
   .work-adjust .card-img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 80%;
+    height: 75%;
     max-height: 80%;
     background-image: url("../assets/anime-girl-with-balloon-in-hand-vo-1280x720.jpg");
     background-size: cover;
