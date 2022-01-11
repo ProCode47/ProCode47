@@ -2,6 +2,154 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 html, body {
   overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+::-webkit-scrollbar-thumb {
+  background: -webkit-gradient(linear, left top, left bottom, from(#2d2e32), to(#64f4ac));
+  background: linear-gradient(#2d2e32, #64f4ac);
+  border-radius: 6px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.float {
+  -webkit-animation: float 3s infinite linear;
+          animation: float 3s infinite linear;
+}
+
+.zoom {
+  animation: zoom 2s infinite alternate-reverse;
+}
+
+@-webkit-keyframes float {
+  0% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+  50% {
+    -webkit-transform: translatey(-15px);
+            transform: translatey(-15px);
+  }
+  100% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+}
+
+@keyframes float {
+  0% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+  50% {
+    -webkit-transform: translatey(-15px);
+            transform: translatey(-15px);
+  }
+  100% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+}
+
+@-webkit-keyframes zoom {
+  0% {
+    width: 18%;
+  }
+  50% {
+    width: 15%;
+  }
+  100% {
+    width: 18%;
+  }
+}
+
+@keyframes zoom {
+  0% {
+    width: 18%;
+  }
+  50% {
+    width: 15%;
+  }
+  100% {
+    width: 18%;
+  }
+}
+
+.rotate {
+  -webkit-animation: rotation 2s infinite linear;
+          animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+#top-button {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 5%;
+  z-index: 99;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+  border: none;
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  border: solid 1px rgba(255, 255, 255, 0.11);
+  outline: none;
+  background-color: #25262a;
+  color: #64f4ac;
+  cursor: pointer;
+}
+
+.fa-react {
+  color: #5ED3F3;
+}
+
+.fa-html5 {
+  color: #DD4B25;
+}
+
+.fa-code {
+  color: #64f4ac;
+}
+
+.fa-code-branch {
+  color: #64f4ac;
+}
+
+.fa-node-js {
+  color: #6AA05C;
+}
+
+.fa-js {
+  color: #F1D454;
 }
 
 body {
@@ -26,6 +174,12 @@ header {
 
 header li {
   list-style: none;
+  cursor: pointer;
+}
+
+header li a {
+  text-decoration: none;
+  color: #64f4ac;
 }
 
 header .brand {
@@ -80,6 +234,14 @@ header .social .fa-whatsapp {
   color: #64f4ac;
 }
 
+header .social .fa-twitter {
+  color: #fff;
+}
+
+header .social .fa-github {
+  color: white;
+}
+
 header .social .fa-envelope {
   color: #64f4ac;
 }
@@ -106,7 +268,7 @@ header .social .fa-bars {
 }
 
 .hero .hero-text .main-text .badge {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-family: monospace;
   background-color: #64f4ac;
   color: #25262a;
@@ -848,6 +1010,11 @@ header .social .fa-bars {
   padding: 20px;
 }
 
+.footer .contact .info a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .footer .contact .info h6 {
   color: rgba(255, 255, 255, 0.445);
   font-size: 0.9rem;
@@ -1070,6 +1237,9 @@ header .social .fa-bars {
     padding: 10px;
     height: 20%;
   }
+  .works .card-head .fab, .works .card-head .fas {
+    font-size: 1rem;
+  }
   .works .card-head h2 {
     width: 60%;
     -webkit-box-pack: center;
@@ -1206,8 +1376,8 @@ header .social .fa-bars {
         flex-wrap: wrap;
   }
   .row-adjust .planet {
-    width: 10%;
-    height: 10%;
+    width: 20%;
+    height: 20%;
     padding: 15px;
   }
   .row-adjust .planet img {
@@ -1346,7 +1516,6 @@ header .social .fa-bars {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 40%;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;

@@ -12,18 +12,20 @@
   <body>
 
     <!-- Header -->
+    <button onclick="topFunction()" id="top-button" title="Go to top"><i class="fas fa-2x fa-angle-up"></i></button>
+
     
     <header>
       <div class="brand text-sm"><b>Iloenyenwa</b>Victor</div>
       <div class="nav hide-sm">
-        <li class="nav-item">Services</li>
-        <li class="nav-item">Work</li>
-        <li class="nav-item">Notes</li>
-        <li class="nav-item">Contact</li>
+        <li  class="nav-item"> <a href="#about"> < About</a> </li>
+        <li  class="nav-item"><a href="#work">Works</a></li>
+        <li  class="nav-item"><a href="#review">Reviews</a></li>
+        <li  class="nav-item"><a href="#contact">Contact /></a></li>
       </div>
       <div class="social ">
-        <li class="social-item hide-sm"><i class="fa fa-twitter"></i> Twitter</li>
-        <li class="social-item hide-sm"><i class="fa fa-github"></i> Github</li>
+        <li class="social-item hide-sm"><i class="fab fa-twitter"></i> Twitter</li>
+        <li class="social-item hide-sm"><i class="fab fa-github"></i> Github</li>
         <li class="social-item hide-sm">
           <div class="circle hide-sm"><i class="fas fa-envelope"></i></div>
 
@@ -32,6 +34,7 @@
 
       </div>
     </header>
+
 
     <!-- Hero Section  -->
 
@@ -68,15 +71,15 @@
       </div>
       <div class="hero-img col-item m-md">
         <img src="./assets/undraw_dev_productivity_umsq.svg" />
-        <img class="tech react hide-sm" src="./assets/react-js.svg" />
-        <img class="tech redux hide-sm" src="./assets/redux.svg" />
-        <img class="tech js hide-sm" src="./assets/node-js.svg" />
+        <img class="tech rotate react hide-sm" src="./assets/react-js.svg" />
+        <img class="tech float redux hide-sm" src="./assets/redux.svg" />
+        <img class="tech zoom js hide-sm" src="./assets/node-js.svg" />
       </div>
     </div>
 
     <!-- About Me -->
 
-    <div class="about col-sm">
+    <div class="about col-sm" id="about">
       <div class="about-tabs col-item m-0">
         <div class="tab m-sm">
           <div class="text">
@@ -126,7 +129,7 @@
           create digital products and resources. I'm quietly confident,
           naturally curious and perpetually working on mastering my craft.
         </p>
-        <button> Check out my Blog <i class="fas fa-arrow-right"></i></button>
+        <button class="text-xs"> Check out my Blog <i class="fas fa-arrow-right"></i></button>
       </div>
     </div>
 
@@ -178,7 +181,7 @@
 
      <!-- Works -->
 
-    <div class="works work-adjust">
+    <div class="works work-adjust" id="work">
 
         <div class="intro">
             <span><h1> Latest Works </h1>
@@ -187,8 +190,8 @@
         <div class=" card card1">
             <div class="card-head">
                 <h2> My Portfolio</h2>
-                <span> <h3>HTML</h3>
-                <h3>JS</h3> </span>
+                <span> <h3> <i class="fab fa-html5"></i> HTML</h3>
+                <h3> <i class="fab fa-js"></i>  JS</h3> </span>
             </div>
 
             <div class="card-img">
@@ -197,8 +200,8 @@
         <div class="card card2">
             <div class="card-head">
                 <h2> Cinematic Online</h2>
-                <span> <h3>React</h3>
-                <h3>TMDB</h3> </span>
+                <span> <h3> <i class="fab fa-react"></i> React</h3>
+                <h3> <i class="fas fa-code-branch"></i> TMDB</h3> </span>
             </div>
 
             <div class="card-img">
@@ -208,8 +211,8 @@
             <div class="card card3">
                 <div class="card-head">
                     <h2> Quotes API </h2>
-                    <span> <h3>Node</h3>
-                    <h3>Express</h3> </span>
+                    <span> <h3> <i class="fab fa-node-js"></i> Node</h3>
+                    <h3> <i class="fas fa-code"></i> Express</h3> </span>
                 </div>
     
                 <div class="card-img">
@@ -226,20 +229,21 @@
 
     <!-- Testimonials -->
 
-    <div class="testimonials">
+    <div class="testimonials" id="review">
       <span class="head m-sm"> <h1 > Testimonials</h1>
       <p class="hide-sm"> what clients say about me</p></span>
 
       <div class="review review-adjust">
         <div class="review-text">
-          <div class="text">
+          <div class="text active">
              <span class="rating"> <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i> 
            <b>5.0 Rating</b>  </span>
-        <p> Daniel was a real pleasure to work with and we look forward to working with him again. He's definitely the kind of designer you can start with a project from start to finish.</p></div>
+        <p> Daniel was a real pleasure to work with and we look forward to working with him again. He's definitely the kind of designer you can start with a project from start to finish.</p>
+      </div>
           <div class="colon">
             <i class="fa fa-4x fa-quote-right"></i>
           </div>
@@ -276,7 +280,7 @@
 
     <!-- Footer -->
 
-    <div class="footer">
+    <div class="footer" id="contact">
       <div class="contact col-sm">
         <div class="sayhi col-item">
           <h2 class="text-md"> Lets' make something amazing together.</h2>
@@ -284,13 +288,13 @@
         </div>
         <div class="info col-item">
           <h6> Information </h6>
-          <p> 7 Mataco Avenue, Iriebe, PH, Nigeria</p>
+          <p> 7 Mataco Avenue, Iriebe, Port Harcourt, Nigeria.</p>
           <h2 class="text-xs">iloenyenwavictor@gmail.com</h2>
           <span>
-            <li>Services</li>
-            <li>Works</li>
-            <li>Notes</li>
-            <li>Contact</li>
+            <li> <a href="#about">About</a> </li>
+            <li><a href="#work">Works</a></li>
+            <li><a href="#review">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
           </span>
         </div>
       </div>
@@ -310,4 +314,5 @@
     </div>
     
   </body>
+  <script src="script.js"></script>
 </html>
