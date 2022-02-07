@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
-html, body {
+html,
+body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -129,11 +130,11 @@ html, body {
 }
 
 .fa-react {
-  color: #5ED3F3;
+  color: #5ed3f3;
 }
 
 .fa-html5 {
-  color: #DD4B25;
+  color: #dd4b25;
 }
 
 .fa-code {
@@ -145,11 +146,11 @@ html, body {
 }
 
 .fa-node-js {
-  color: #6AA05C;
+  color: #6aa05c;
 }
 
 .fa-js {
-  color: #F1D454;
+  color: #f1d454;
 }
 
 body {
@@ -211,13 +212,50 @@ header .social {
   width: 30%;
 }
 
-header .social .circle {
-  width: 50px;
-  position: absolute;
-  top: 10px;
+header .social .hamburger {
+  position: fixed;
+  cursor: pointer;
+  background: #25262a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 8px;
   right: 5%;
-  height: 50px;
+  top: 1%;
+  z-index: 10;
+}
+
+header .social .line {
+  width: 20px;
+  height: 2px;
+  background: #64f4ac;
+  margin: 2px;
+}
+
+header .social a {
+  text-decoration: none;
+  color: white !important;
+}
+
+header .social .circle {
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -265,6 +303,10 @@ header .social .fa-bars {
 
 .hero .hero-text .main-text {
   margin-left: 18%;
+}
+
+.hero .hero-text .main-text a {
+  text-decoration: none;
 }
 
 .hero .hero-text .main-text .badge {
@@ -462,7 +504,8 @@ header .social .fa-bars {
   margin-left: 20px;
 }
 
-.about .about-tabs .tab .fa, .about .about-tabs .tab .fas {
+.about .about-tabs .tab .fa,
+.about .about-tabs .tab .fas {
   font-size: 1.5rem;
   color: #64f4ac;
 }
@@ -919,7 +962,10 @@ header .social .fa-bars {
     height: 60px;
     margin-right: 15px;
     border-radius: 50%;
-    background-color: #64f4ac;
+  }
+  .testimonials .review .review-profiles .review-profile .circle img {
+    width: 100%;
+    height: auto;
   }
   .testimonials .review .review-profiles .review-profile .profile-info h3 {
     margin: 0px;
@@ -951,6 +997,11 @@ header .social .fa-bars {
   margin-top: 10rem;
 }
 
+.footer a {
+  text-decoration: none;
+  color: #64f4ac;
+}
+
 .footer .contact {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -979,13 +1030,14 @@ header .social .fa-bars {
   font-family: "Montserrat", sans-serif;
 }
 
-.footer .contact .sayhi h2 b {
+.footer .contact .sayhi h2 a {
   color: #64f4ac;
+  text-decoration: none;
   cursor: pointer;
   position: relative;
 }
 
-.footer .contact .sayhi h2 b::after {
+.footer .contact .sayhi h2 a::after {
   content: "";
   width: 100%;
   height: 3px;
@@ -1168,8 +1220,9 @@ header .social .fa-bars {
     padding: 0px;
     margin: 0px;
   }
-  .works .outro b {
+  .works .outro a {
     color: #64f4ac;
+    text-decoration: none;
     font-style: bold;
     font-weight: lighter;
   }
@@ -1237,7 +1290,8 @@ header .social .fa-bars {
     padding: 10px;
     height: 20%;
   }
-  .works .card-head .fab, .works .card-head .fas {
+  .works .card-head .fab,
+  .works .card-head .fas {
     font-size: 1rem;
   }
   .works .card-head h2 {
@@ -1280,8 +1334,25 @@ header .social .fa-bars {
     display: flex;
     height: 80%;
     max-height: 80%;
-    background-image: url("../assets/anime-girl-with-balloon-in-hand-vo-1280x720.jpg");
     background-size: cover;
+    background-position: center;
+    -webkit-transition-duration: .5s;
+            transition-duration: .5s;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .works .card-img:hover {
+    -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+  }
+  .works div[title="portfolio"] {
+    background-image: url("../assets/portfolio.png") !important;
+  }
+  .works div[title="cinematic"] {
+    background-image: url("../assets/cinematic.png") !important;
+  }
+  .works div[title="gitsearch"] {
+    background-image: url("../assets/gitsearch.png") !important;
   }
 }
 
@@ -1447,8 +1518,9 @@ header .social .fa-bars {
   .work-adjust .outro p {
     line-height: 20px;
   }
-  .work-adjust .outro b {
+  .work-adjust .outro a {
     color: #64f4ac;
+    text-decoration: none;
     font-style: bold;
     font-weight: lighter;
   }
@@ -1543,6 +1615,15 @@ header .social .fa-bars {
     max-height: 80%;
     background-image: url("../assets/anime-girl-with-balloon-in-hand-vo-1280x720.jpg");
     background-size: cover;
+  }
+  .work-adjust div[title="portfolio"] {
+    background-image: url("../assets/portfolio.png") !important;
+  }
+  .work-adjust div[title="cinematic"] {
+    background-image: url("../assets/cinematic.png") !important;
+  }
+  .work-adjust div[title="gitsearch"] {
+    background-image: url("../assets/gitsearch.png") !important;
   }
   .review-adjust {
     display: -webkit-box;
@@ -1665,8 +1746,11 @@ header .social .fa-bars {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: #64f4ac;
     margin-right: 15px;
+  }
+  .review-adjust .review-profiles .review-profile .circle img {
+    width: 100%;
+    height: auto;
   }
   .review-adjust .review-profiles .review-profile .profile-info h3 {
     margin: 0px;
