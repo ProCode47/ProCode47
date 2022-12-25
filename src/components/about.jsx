@@ -1,5 +1,6 @@
 import React from "react";
 import { FiCode, FiDatabase, FiDownload, FiSmartphone } from "react-icons/fi";
+import resume from '../assets/resume.pdf'
 
 export default function About() {
   return (
@@ -58,9 +59,9 @@ export default function About() {
             digital products and resources. I'm quietly confident, naturally
             curious and perpetually working on mastering my craft.
           </p>
-          <button class="text-xs">
+          <a href={resume} download="resume" target='_blank'><button class="text-xs">
             Download Resume <FiDownload/>
-          </button>
+          </button></a>
         </div>
       </div>
     </>

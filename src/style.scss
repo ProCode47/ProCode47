@@ -262,13 +262,20 @@ header {
       width: 45%;
       flex-wrap: wrap;
     }
-    h3 {
+    a{
+      text-decoration: none;
+      padding: 0px;
+      margin: 0px;
+      h3 {
       margin-right: auto;
       font-size: 1.2rem;
+      width: fit-content;
       padding: 0.8rem;
       background-color: $green;
       color: $mainBlack;
     }
+    }
+
   }
   .menu_list {
     display: flex;

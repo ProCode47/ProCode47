@@ -42,7 +42,7 @@ export default function Footer() {
               </a>
             </p>
             <p className="center">
-              <a href="https://twitter.com/shadowbytee">github</a>
+              <a href="https://github.com/ProCode47/ProCode47">github</a>
             </p>
           </span>
         </div>
