@@ -128,12 +128,11 @@ export const loader = () => {
       let random = generateRandomString(2);
       root.innerHTML = "shadowbyte" + random;
     }, 50);
-    const interval12 = () =>
+  const interval12 = () =>
     setInterval(() => {
       let random = generateRandomString(1);
       root.innerHTML = "shadowbytee" + random;
     }, 50);
-
 
   var interval = interval1();
 
@@ -186,8 +185,6 @@ export const loader = () => {
     root.innerHTML = "shadowbytee.";
   }, 6600);
   setTimeout(() => {
-    overlay.style.transform =  "translateY(-100%)"
+    overlay.style.transform = "translateY(-100%)";
   }, 7500);
 };
-
-
