@@ -1,6 +1,6 @@
 import React from "react";
 import { FiCode, FiDatabase, FiDownload, FiSmartphone } from "react-icons/fi";
-import resume from '../assets/resume.pdf'
+import resume from "../assets/resume.pdf";
 
 export default function About() {
   return (
@@ -14,7 +14,7 @@ export default function About() {
               <p class="project">30 PROJECTS</p>
             </div>
             <div class="icon">
-              <FiCode color="#64f4ac" size={25}/>
+              <FiCode color="#64f4ac" size={25} />
             </div>
           </div>
           <div class="tab m-sm">
@@ -24,7 +24,7 @@ export default function About() {
               <p class="project">20 PROJECTS</p>
             </div>
             <div class="icon">
-              <FiDatabase color="#64f4ac" size={25}/>
+              <FiDatabase color="#64f4ac" size={25} />
             </div>
           </div>
           <div class="tab m-sm">
@@ -36,7 +36,7 @@ export default function About() {
               <p class="project">10 PROJECTS</p>
             </div>
             <div class="icon">
-              <FiSmartphone color="#64f4ac" size={25}/>
+              <FiSmartphone color="#64f4ac" size={25} />
             </div>
           </div>
         </div>
@@ -59,9 +59,11 @@ export default function About() {
             digital products and resources. I'm quietly confident, naturally
             curious and perpetually working on mastering my craft.
           </p>
-          <a href={resume} download="resume" target='_blank'><button class="text-xs">
-            Download Resume <FiDownload/>
-          </button></a>
+          <a href={resume} download="resume" target="_blank">
+            <button class="text-xs">
+              Download Resume <FiDownload />
+            </button>
+          </a>
         </div>
       </div>
     </>
