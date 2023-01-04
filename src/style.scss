@@ -63,7 +63,11 @@ body {
     transform: rotate(359deg);
   }
 }
-#top-button {
+a{
+  text-decoration: none;
+  color: inherit;
+}
+#topbtn {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -306,7 +310,7 @@ header {
 
     h1{
       color: $green;
-      font-size: 2.5rem;
+      font-size: 2.35rem;
       font-family: "Space Mono";
     }
 }

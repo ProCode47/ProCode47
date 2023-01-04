@@ -16,7 +16,7 @@ export default function Works() {
         </div>
         <div class="card card1">
           <div class="card-head">
-            <h2>My Portfolio</h2>
+            <h2><a href="https://github.com/ProCode47/ProCode47">My Portfolio</a></h2>
             <span>
               <h3>
                <FaReact/> React
@@ -33,7 +33,7 @@ export default function Works() {
         </div>
         <div class="card card2">
           <div class="card-head">
-            <h2>Unsplattr</h2>
+            <h2> <a href="https://github.com/ProCode47/Unsplattr">Unsplattr</a></h2>
             <span>
               <h3>
                 <FaReact/> React
@@ -51,7 +51,7 @@ export default function Works() {
 
         <div class="card card3">
           <div class="card-head">
-            <h2>Unik API</h2>
+            <h2><a href="https://github.com/ProCode47/Unik-API">Unik API</a></h2>
             <span>
               <h3>
                 <FaNodeJs/> Node
@@ -67,7 +67,7 @@ export default function Works() {
           </div>
         </div>
         <div class="outro">
-          <h1>ALL PROJECTS</h1>
+          <h1><a href="https://github.com/procode47">ALL PROJECTS</a></h1>
           <p class="text-center">
             Looking for more of my projects? You can always check out my
             <a href="https://github.com/procode47"> Github</a>

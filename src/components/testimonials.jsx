@@ -5,72 +5,113 @@ import { FaTwitter } from "react-icons/fa";
 export default function Testimonials() {
   const Recommends = [
     {
-      displayName: "Shadow Byte",
-      username: "theshadowthatbites",
+      displayName: "Chisom Udonsi",
+      username: "@TheAce74",
       comment:
-        "this is fooking amazing fam by the order of the fooking peaky blinders!!",
+        "Proficient fullstack developer, unfortunately not proficient with the ladies 😂",
     },
     {
-      displayName: "Shadow Byte",
-      username: "theshadowthatbites",
+      displayName: "Chisom Udonsi",
+      username: "@TheAce74",
       comment:
-        "this is fooking amazing fam by the order of the fooking peaky blinders!!",
+        "Victor is so good that he makes coding look like a walk in the park. 10/10 would recommend!",
     },
     {
-      displayName: "Shadow Byte",
-      username: "theshadowthatbites",
+      displayName: "Client",
+      username: "@satisfiedclient",
       comment:
-        "this is fooking amazing fam by the order of the fooking peaky blinders!!",
+        "I'm very satisfied with his work. He is incredibly skilled and resourceful",
     },
     {
-      displayName: "Shadow Byte",
-      username: "theshadowthatbites",
+      displayName: "Chisom Udonsi",
+      username: "@TheAce74",
       comment:
-        "this is fooking amazing fam by the order of the fooking peaky blinders!!",
+        "Victor is well adept. He can do alot with ease, and his code is so clean. Highly recommended!",
     },
     {
-      displayName: "Shadow Byte",
-      username: "theshadowthatbites",
+      displayName: "Chisom Udonsi",
+      username: "@TheAce74",
       comment:
-        "this is fooking amazing fam by the order of the fooking peaky blinders!!",
+        "Proficient fullstack developer, unfortunately not proficient with the ladies 😂",
     },
     {
-      displayName: "Shadow Byte",
-      username: "theshadowthatbites",
+      displayName: "Chisom Udonsi",
+      username: "@TheAce74",
       comment:
-        "this is fooking amazing fam by the order of the fooking peaky blinders!!",
+        "Victor is so good that he makes coding look like a walk in the park. 10/10 would recommend!",
     },
     {
-      displayName: "Shadow Byte",
-      username: "theshadowthatbites",
+      displayName: "Client",
+      username: "@satisfiedclient",
       comment:
-        "this is fooking amazing fam by the order of the fooking peaky blinders!!",
+        "I'm very satisfied with his work. He is incredibly skilled and resourceful",
     },
     {
-      displayName: "Shadow Byte",
-      username: "theshadowthatbites",
+      displayName: "Chisom Udonsi",
+      username: "@TheAce74",
       comment:
-        "this is fooking amazing fam by the order of the fooking peaky blinders!!",
+        "Victor is well adept. He can do alot with ease, and his code is so clean. Highly recommended!",
+    },    {
+      displayName: "Chisom Udonsi",
+      username: "@TheAce74",
+      comment:
+        "Proficient fullstack developer, unfortunately not proficient with the ladies 😂",
     },
     {
-      displayName: "Shadow Byte",
-      username: "theshadowthatbites",
+      displayName: "Chisom Udonsi",
+      username: "@TheAce74",
       comment:
-        "this is fooking amazing fam by the order of the fooking peaky blinders!!",
+        "Victor is so good that he makes coding look like a walk in the park. 10/10 would recommend!",
     },
+    {
+      displayName: "Client",
+      username: "@satisfiedclient",
+      comment:
+        "I'm very satisfied with his work. He is incredibly skilled and resourceful",
+    },
+    {
+      displayName: "Chisom Udonsi",
+      username: "@TheAce74",
+      comment:
+        "Victor is well adept. He can do alot with ease, and his code is so clean. Highly recommended!",
+    },    {
+      displayName: "Chisom Udonsi",
+      username: "@TheAce74",
+      comment:
+        "Proficient fullstack developer, unfortunately not proficient with the ladies 😂",
+    },
+    {
+      displayName: "Chisom Udonsi",
+      username: "@TheAce74",
+      comment:
+        "Victor is so good that he makes coding look like a walk in the park. 10/10 would recommend!",
+    },
+    {
+      displayName: "Client",
+      username: "@satisfiedclient",
+      comment:
+        "I'm very satisfied with his work. He is incredibly skilled and resourceful",
+    },
+    {
+      displayName: "Chisom Udonsi",
+      username: "@TheAce74",
+      comment:
+        "Victor is well adept. He can do alot with ease. Highly recommended!",
+    }
+
   ];
   return (
     <>
       <div class="testimonials" id="review">
         <span class="head m-sm">
           <h1>Testimonials</h1>
-          <p class="hide-sm">what clients say about me</p>
+          <p class="hide-sm">what people say about me</p>
         </span>
         <motion.div
           initial={{ x: "-25%" }}
           animate={{ x: "-100%" }}
           transition={{
-            duration: 15,
+            duration: 12,
             repeat: Infinity,
             type: "tween",
             repeatType: "mirror",
@@ -82,7 +123,7 @@ export default function Testimonials() {
               <div class="profile-bar">
                 <span>
                   <h4>{tweet.displayName}</h4>
-                  <p>@{tweet.username}</p>
+                  <p>{tweet.username}</p>
                 </span>
                 <FaTwitter size={20} color="#64f4ac" />
               </div>
@@ -99,7 +140,7 @@ export default function Testimonials() {
           initial={{ x: "-100%" }}
           animate={{ x: "0%" }}
           transition={{
-            duration: 15,
+            duration: 12,
             repeat: Infinity,
             type: "tween",
             repeatType: "mirror",
@@ -111,7 +152,7 @@ export default function Testimonials() {
               <div class="profile-bar">
                 <span>
                   <h4>{tweet.displayName}</h4>
-                  <p>@{tweet.username}</p>
+                  <p>{tweet.username}</p>
                 </span>
                 <FaTwitter size={20} color="#64f4ac" />
               </div>

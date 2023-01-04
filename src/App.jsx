@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { FaChevronUp } from "react-icons/fa";
 import About from "./components/about";
 import Footer from "./components/footer";
 import Header from "./components/header";
@@ -11,8 +12,8 @@ import "./style.scss";
 function App() {
   return (
     <div className="App">
-      <button onclick="topFunction()" id="top-button" title="Go to top">
-        <i class="fas fa-2x fa-angle-up"></i>
+      <button onclick="topFunction()" id="topbtn" title="Go to top">
+        <FaChevronUp/>
       </button>
       <Header />
       <Hero />

@@ -23,7 +23,7 @@ export default function Header() {
   return (
     <>
       <div id="overlay" className="preloader">
-        <h1 id="loader">shadowbytee</h1>
+        <h1 id="loader"></h1>
       </div>
       <header>
         <div class="brand text-sm">
