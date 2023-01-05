@@ -11,10 +11,28 @@ export default function Testimonials() {
         "Proficient fullstack developer, unfortunately not proficient with the ladies 😂",
     },
     {
+      displayName: "Client",
+      username: "@satisfiedclient",
+      comment:
+        "I'm very satisfied with his work. He is incredibly skilled and resourceful",
+    },
+    {
       displayName: "Chisom Udonsi",
       username: "@TheAce74",
       comment:
-        "Victor is so good that he makes coding look like a walk in the park. 10/10 would recommend!",
+        "Victor is well adept. He can do alot with ease, and his code is so clean. Highly recommended!",
+    },
+    {
+      displayName: "Ernesto",
+      username: "@Ernesto_tech",
+      comment:
+        "Victor is a skilled and crafty developer. I've worked with him and I highly recommend him.",
+    },
+    {
+      displayName: "Chisom Udonsi",
+      username: "@TheAce74",
+      comment:
+        "Proficient fullstack developer, unfortunately not proficient with the ladies 😂",
     },
     {
       displayName: "Client",
@@ -29,16 +47,16 @@ export default function Testimonials() {
         "Victor is well adept. He can do alot with ease, and his code is so clean. Highly recommended!",
     },
     {
-      displayName: "Chisom Udonsi",
-      username: "@TheAce74",
+      displayName: "Ernesto",
+      username: "@Ernesto_tech",
       comment:
-        "Proficient fullstack developer, unfortunately not proficient with the ladies 😂",
+        "Victor is a skilled and crafty developer. I've worked with him and I highly recommend him.",
     },
     {
       displayName: "Chisom Udonsi",
       username: "@TheAce74",
       comment:
-        "Victor is so good that he makes coding look like a walk in the park. 10/10 would recommend!",
+        "Proficient fullstack developer, unfortunately not proficient with the ladies 😂",
     },
     {
       displayName: "Client",
@@ -51,54 +69,13 @@ export default function Testimonials() {
       username: "@TheAce74",
       comment:
         "Victor is well adept. He can do alot with ease, and his code is so clean. Highly recommended!",
-    },    {
-      displayName: "Chisom Udonsi",
-      username: "@TheAce74",
-      comment:
-        "Proficient fullstack developer, unfortunately not proficient with the ladies 😂",
     },
     {
-      displayName: "Chisom Udonsi",
-      username: "@TheAce74",
+      displayName: "Ernesto",
+      username: "@Ernesto_tech",
       comment:
-        "Victor is so good that he makes coding look like a walk in the park. 10/10 would recommend!",
+        "Victor is a skilled and crafty developer. I've worked with him and I highly recommend him.",
     },
-    {
-      displayName: "Client",
-      username: "@satisfiedclient",
-      comment:
-        "I'm very satisfied with his work. He is incredibly skilled and resourceful",
-    },
-    {
-      displayName: "Chisom Udonsi",
-      username: "@TheAce74",
-      comment:
-        "Victor is well adept. He can do alot with ease, and his code is so clean. Highly recommended!",
-    },    {
-      displayName: "Chisom Udonsi",
-      username: "@TheAce74",
-      comment:
-        "Proficient fullstack developer, unfortunately not proficient with the ladies 😂",
-    },
-    {
-      displayName: "Chisom Udonsi",
-      username: "@TheAce74",
-      comment:
-        "Victor is so good that he makes coding look like a walk in the park. 10/10 would recommend!",
-    },
-    {
-      displayName: "Client",
-      username: "@satisfiedclient",
-      comment:
-        "I'm very satisfied with his work. He is incredibly skilled and resourceful",
-    },
-    {
-      displayName: "Chisom Udonsi",
-      username: "@TheAce74",
-      comment:
-        "Victor is well adept. He can do alot with ease. Highly recommended!",
-    }
-
   ];
   return (
     <>
