@@ -23,14 +23,14 @@ export default function Hero() {
 
           <div class="stats">
             <div class="stat">
-              <b> 3 </b>
+              <b> 5 </b>
               <span>
                 <p>YEARS</p>
                 <p>EXPERIENCE</p>
               </span>
             </div>
             <div class="stat">
-              <b> 25 </b>
+              <b> 35+ </b>
               <span>
                 <p>PROJECTS COMPLETED</p>
                 <p class="hide-sm">ON WEB AND MOBILE</p>

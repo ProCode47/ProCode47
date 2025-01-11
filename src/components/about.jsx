@@ -1,6 +1,6 @@
 import React from "react";
 import { FiCode, FiDatabase, FiDownload, FiSmartphone } from "react-icons/fi";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/iloenyenwa_victor_resume.docx";
 
 export default function About() {
   return (
